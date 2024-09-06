@@ -34,10 +34,10 @@ function Exploreev() {
                 <div offset={0} speed={0.5} >
                     
                     <div className="contentblock" >
-                        <div className='head'>Electric vehicle</div>
+                        <div className='head'>Electric Vehicle</div>
                         <div className='infoblock1' >
-                            <h2>"Miniature Electric Car Design Challenge" - Shaping the Future of Sustainable Mobility</h2>
-                            <h3>Description</h3>
+                            <h2>Sensor data logging for EVs</h2>
+                            {/* <h3>Description</h3>
                             <p><span className='heading'>Introduction</span>:
                                 The ""Miniature Electric Car Design Challenge"" is a captivating competition that ventures into the realm of sustainable transportation and innovative engineering. Electric vehicles (EVs) are transforming the automotive landscape, and this competition invites participants to design and build their own miniature electric cars. In this competition, participants will merge their skills in engineering, design, and sustainability to create efficient, eco-friendly, and stylish miniature electric vehicles.
                                 <br></br>
@@ -58,13 +58,14 @@ function Exploreev() {
                                 While miniature, safety is paramount. Participants will ensure that their designs include adequate safety features and mechanisms.
                                 <br></br><span className='heading'>
                                     Design Aesthetics: </span>
-                                Participants will pay attention to the aesthetics of their miniature EVs, incorporating style, visual appeal, and innovation in their designs.</p>
+                                Participants will pay attention to the aesthetics of their miniature EVs, incorporating style, visual appeal, and innovation in their designs.</p> */}
+                                <p>The data logging is the biggest challenge for EVs to study driving patterns to create algorithms. Create a system to log the driving data and show the vehicle parameters on the dashboard based on the same.</p>
                         </div>
 
 
                         <div className='infoblock2' >
-                            <h2>"Wireless Charging for Electric Vehicles Challenge" - Pioneering Effortless and Eco-Friendly EV Charging Solutions</h2>
-                            <h3>Description</h3>
+                            <h2>Battery SOC estimation</h2>
+                            {/* <h3>Description</h3>
                             <p><span className='heading'>Introduction</span>:
                                 The ""Wireless Charging for Electric Vehicles Challenge"" is an inspiring competition that delves into the cutting-edge field of electric vehicle (EV) charging technology. As the world shifts towards sustainable transportation, wireless charging holds immense potential to revolutionize how EVs are powered. In this competition, participants will embark on a journey of innovation by designing and developing wireless charging solutions for electric vehicles. By harnessing their skills in electronics, power systems, and sustainable technologies, participants will contribute to shaping the future of EV charging.
                                 <br></br>
@@ -86,7 +87,8 @@ function Exploreev() {
                                 Participants will integrate safety mechanisms to ensure that the wireless charging process is secure for both the vehicle and the users.
                                 <br></br><span className='heading'>
                                     Prototyping and Testing: </span>
-                                Participants will build working prototypes of their wireless charging systems and conduct testing to validate their efficiency, reliability, and safety.</p>
+                                Participants will build working prototypes of their wireless charging systems and conduct testing to validate their efficiency, reliability, and safety.</p> */}
+                                <p> Implement a simple battery state estimation system with a suitable vehicle controller                                </p>
                         </div>
 
 
@@ -97,8 +99,8 @@ function Exploreev() {
 
 
                         <div className='infoblock1' >
-                            <h2>"Regenerative Braking Innovation Challenge" - Transforming Vehicle Braking into Energy Harvesting</h2>
-                            <h3>Description</h3>
+                            <h2>Multisource charging stations</h2>
+                            {/* <h3>Description</h3>
                             <p><span className='heading'>Introduction</span>:
                                 The ""Regenerative Braking Innovation Challenge"" is an electrifying competition that delves into the realm of energy-efficient transportation. Regenerative braking technology has the potential to revolutionize the way vehicles harness and utilize energy during braking. In this competition, participants will harness their engineering skills to design and develop innovative regenerative braking systems. By blending mechanics, electronics, and sustainability, participants will redefine the concept of braking by converting kinetic energy into usable power.
                                 <br></br>
@@ -119,7 +121,8 @@ function Exploreev() {
                                 Participants will ensure that their regenerative braking systems are compatible with various vehicle types and seamlessly integrate with existing vehicle systems.
                                 <br></br><span className='heading'>
                                     Performance Optimization: </span>
-                                Participants will fine-tune their systems for optimal energy capture efficiency and braking performance.</p>
+                                Participants will fine-tune their systems for optimal energy capture efficiency and braking performance.</p> */}
+                                <p>Create a prototype for a multisource fast charging station without creating grid disturbances</p>
                         </div>
 
 
@@ -128,8 +131,8 @@ function Exploreev() {
 
 
                         <div className='infoblock2' >
-                            <h2>"Solar-Powered EV Charging Station Design Challenge" - Illuminating Sustainable Mobility with Solar Energy</h2>
-                            <h3>Description</h3>
+                            <h2>Electric vehicle skateboard</h2>
+                            {/* <h3>Description</h3>
                             <p><span className='heading'>Introduction</span>:
                                 The ""Solar-Powered EV Charging Station Design Challenge"" is an inspiring competition that converges renewable energy and transportation infrastructure. As the world embraces sustainable mobility, solar-powered electric vehicle (EV) charging stations present a visionary solution. In this competition, participants will embark on a journey to design and create innovative solar-powered EV charging stations. By blending engineering, renewable energy systems, and urban planning, participants will contribute to a greener future while fostering the growth of electric vehicle adoption.
                                 <br></br>   <span className='heading'>Competition Objective</span>:
@@ -149,7 +152,8 @@ function Exploreev() {
                                 Participants will consider urban planning aspects, including location selection, accessibility, and aesthetic integration, to optimize the placement of the charging station.
                                 <br></br><span className='heading'>
                                     User Experience: </span>
-                                Participants will ensure a seamless user experience by designing user-friendly interfaces, payment systems, and charging protocols. </p>
+                                Participants will ensure a seamless user experience by designing user-friendly interfaces, payment systems, and charging protocols. </p> */}
+                                <p>Analyse the different vehcile skateboard architectures for the placment of the powertrain components</p>
 
                         </div>
 
@@ -162,8 +166,8 @@ function Exploreev() {
 
                         <div className='infoblock1' >
                             <h2>
-                                "Dual-Cell Battery Management System (BMS) Challenge" - Elevating Battery Performance and Safety with Arduino and BMS Technology</h2>
-                            <h3>Description</h3>
+                            Regenerative braking demo</h2>
+                            {/* <h3>Description</h3>
                             <p><span className='heading'>Introduction</span>:
                                 The ""Dual-Cell Battery Management System Challenge"" is an electrifying competition that explores the realm of battery technology and energy management. In the era of portable electronics and electric vehicles, efficient battery management is paramount for performance and safety. In this competition, participants will leverage their skills in electronics, programming, and energy systems to design and build a sophisticated Dual-Cell Battery Management System using Arduino and BMS modules. By ensuring balanced charging, discharging, and monitoring of two-cell battery packs, participants will demonstrate their commitment to energy efficiency and sustainable technology.
                                 <br></br>   <span className='heading'>Competition Objective</span>:
@@ -183,7 +187,8 @@ function Exploreev() {
                                 Participants will incorporate protection mechanisms to prevent overcurrent and overvoltage situations, enhancing battery safety.
                                 <br></br><span className='heading'>
                                     Data Visualization: </span>
-                                Participants may create a user-friendly interface to visualize battery status, voltage, temperature, and other relevant data.</p>
+                                Participants may create a user-friendly interface to visualize battery status, voltage, temperature, and other relevant data.</p> */}
+                                <p>Create a prototype for regenerative braking system</p>
                         </div>
 
 
